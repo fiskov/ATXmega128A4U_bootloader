@@ -1,0 +1,10 @@
+#ifndef __COMMMON_DEFINES_H
+#define __COMMMON_DEFINES_H
+
+#define FLASH_NEW_START 0x10000UL
+#define PAGE_SIZE 256U
+
+#define NVM_BUSY_bits (NVM_FBUSY_bm | NVM_FLOAD_bm | NVM_NVMBUSY_bm)
+
+
+#endif /*__COMMMON_DEFINES_H */
