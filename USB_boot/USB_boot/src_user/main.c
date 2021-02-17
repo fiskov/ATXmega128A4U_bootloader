@@ -66,7 +66,7 @@ int main(void)
 	}
 }
 
-// 
+// https://habr.com/ru/post/278171/
 static uint16_t ControlSum(uint32_t startAddr, uint8_t pagesCnt){
 	uint16_t cs=0;
 
